@@ -1,0 +1,137 @@
+body, html {
+  background-color: rgb(239, 239, 248);
+}
+
+.quote-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(239, 239, 248);
+  }
+  
+  .title {
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="number"]{
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    border: 0;
+  }
+
+  input[type="text"],
+  input[type="number"]{
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: rgb(101, 149, 101);
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 14px;
+    border: 0;
+  }
+
+  .btnAdd,
+  .btnSearch,
+  .btnShowAll {
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .btnAdd:hover{
+    background-color: rgb(32, 255, 32);
+  }
+
+  .btnSearch:hover{
+    background-color: rgb(32, 255, 32);
+  }
+
+  .btnShowAll:hover{
+    background-color: rgb(32, 255, 32);
+  }
+
+  .add-quote {
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .quote-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .quote-item {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .quote-item:hover {
+    background-color: rgb(244, 255, 244);
+  }
+  
+  .quote-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .rating button {
+    font-size: 20px;
+    color: gray;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .rating button.active {
+    color: orange;
+  }
+  
+  .total-points {
+    font-size: 14px;
+    color: #6f6f6f;
+  }
+
+  .btnDelete {
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: rgb(255, 82, 82);
+  }
+
+  .btnPrevious {
+    margin-right: 10px;
+  }
+
+  .btnPrevious:hover {
+    background-color: white;
+    color: rgb(101, 149, 101);
+  }
+
+  .btnNext {
+    margin-left: 10px;
+  }
+
+  .btnNext:hover {
+    background-color: white;
+    color: rgb(101, 149, 101);
+  }
+
+  .pagination {
+    margin-top: 15px;
+  }
